@@ -6,4 +6,4 @@ SELECT
     , a."timezone" 
 FROM demo.bookings.airports a
 --WHERE "timezone" = Asia/Yakutsk 
-WHERE "timezone" = 'Asia/Yakutsk';
+WHERE "timezone" LIKE 'Asia/Yakutsk';
