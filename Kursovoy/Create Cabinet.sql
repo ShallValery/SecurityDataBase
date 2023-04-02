@@ -1,5 +1,5 @@
 
-CREATE TABLE "Кабинет" (
+CREATE TABLE "Cabinet" (
   "ID*" integer not null generated always as identity PRIMARY key,
-  "Кабинет" char(3) not null
+  "Cabinet" char(3) not null
 );

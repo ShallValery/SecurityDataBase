@@ -1,5 +1,5 @@
 
-CREATE TABLE "Дата" (
+CREATE TABLE "Date" (
   "ID*" integer not null generated always as identity PRIMARY key,
-  "Дата" date not null
+  "Date" date not null
 );

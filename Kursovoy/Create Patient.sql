@@ -1,9 +1,9 @@
-CREATE TABLE "Пациент" (
+CREATE TABLE "Patient" (
   "ID*" integer not null generated always as identity PRIMARY KEY,
-  "ФИО" text,
-  "Пол" text,
-  "Дата рождения" date not null,
-  "№ паспорта" char(10) not null,
-  "Адрес проживания" varchar(250) not null,
-  "Телефон" char(11) not null
+  "Full name" text,
+  "Gender" text,
+  "Date of birth" date not null,
+  "№ passport" char(10) not null,
+  "Residential address" varchar(250) not null,
+  "Phone number" char(11) not null
 );

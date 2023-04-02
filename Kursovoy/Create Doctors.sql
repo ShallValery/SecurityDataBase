@@ -1,9 +1,9 @@
 
-CREATE TABLE "Врач" (
+CREATE TABLE "Doctor" (
   "ID*" integer not null generated always as identity PRIMARY KEY,
-  "ФИО" text,
-  "Пол" char(3) not null,
-  "Дата рождения" date not null,
-  "Табельный номер" char(6) not null,
-  "Служебный телефон" char(5) not null
+  "Full name" text,
+  "Gender" char(3) not null,
+  "Date of birth" date not null,
+  "Table number" char(6) not null,
+  "Work phone number" char(5) not null
 );

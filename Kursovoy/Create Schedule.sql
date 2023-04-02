@@ -1,8 +1,8 @@
-CREATE TABLE "Расписание" (
+CREATE TABLE "Schedule" (
   "ID*" integer not null generated always as identity PRIMARY key,
-  "Врач" text,
-  "Пациент" text,
-  "Дата приёма" date not null,
-  "Время приёма" time not null,
-  "Кабинет" char(3)  not null
+  "Doctor" text,
+  "Patient" text,
+  "Date of admission" date not null,
+  "Time of admission" time not null,
+  "Cabinet" char(3)  not null
 );
