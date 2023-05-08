@@ -1,4 +1,3 @@
-
 CREATE TABLE "Doctor" (
   "ID_Doctors" integer not null generated always as identity PRIMARY KEY,
   "Full name" text not null,
