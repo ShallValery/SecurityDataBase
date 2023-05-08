@@ -1,4 +1,4 @@
 CREATE TABLE "Benefits" (
-  "ID*" integer not null generated always as identity PRIMARY key,
+  "ID_Benefits" integer not null generated always as identity PRIMARY key,
   "Benefits" boolean
 );
