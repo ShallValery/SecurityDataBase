@@ -1,5 +1,5 @@
 --Создать столбец "NULL" так, чтобы получить значение NULL
---, если пассажир Иванов.
+--, если пассажир VALERIY GAVRILOV.
 SELECT 
       a.passenger_name
     , a."passenger_id"

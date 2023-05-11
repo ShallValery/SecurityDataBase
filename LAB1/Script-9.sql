@@ -1,4 +1,4 @@
---Показать рейсы неактуальные рейсы
+--Показать  неактуальные рейсы
 SELECT 
       f.scheduled_departure
     , f.scheduled_arrival 
